@@ -42,8 +42,8 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 54, 1, 63;
-  --bs-secondary-rgb: 108, 117, 125;
+  --bs-primary-rgb: 37, 78, 88;
+  --bs-secondary-rgb: 136, 189, 188;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
   --bs-warning-rgb: 255, 193, 7;
@@ -2848,20 +2848,20 @@ textarea.form-control-lg {
 }
 
 .btn-primary {
-  --bs-btn-color: #fff;
-  --bs-btn-bg: #36013f;
-  --bs-btn-border-color: #36013f;
+  --bs-btn-color: black;
+  --bs-btn-bg: #ffc107;
+  --bs-btn-border-color: #ffc107;
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #440150;
-  --bs-btn-hover-border-color: #440150;
+  --bs-btn-hover-bg: #112D32;
+  --bs-btn-hover-border-color: #112D32;
   --bs-btn-focus-shadow-rgb: 246, 122, 88;
   --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #440150;
+  --bs-btn-active-bg: #112D32;
   --bs-btn-active-border-color: #440150;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #fff;
-  --bs-btn-disabled-bg: #36013f;
-  --bs-btn-disabled-border-color: #36013f;
+  --bs-btn-disabled-bg: #254E58;
+  --bs-btn-disabled-border-color: #254E58;
 }
 
 .btn-secondary {
@@ -8128,11 +8128,6 @@ textarea.form-control-lg {
   --bs-text-opacity: 1;
 }
 
-.text-purple {
-  --bs-text-opacity: 1;
-  color: #36013f;
-}
-
 .bg-primary {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
@@ -10890,10 +10885,10 @@ hr.divider-light {
   padding: 0.75rem 0;
 }
 #mainNav .navbar-nav .nav-item .nav-link:hover, #mainNav .navbar-nav .nav-item .nav-link:active {
-  color: #f4623a;
+  color: #112D32;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active {
-  color: #f4623a !important;
+  color: #88BDBC !important;
 }
 @media (min-width: 992px) {
   #mainNav {
@@ -10924,13 +10919,13 @@ hr.divider-light {
     color: #212529;
   }
   #mainNav.navbar-shrink .navbar-brand:hover {
-    color: #f4623a;
+    color: #112D32;
   }
   #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link {
     color: #212529;
   }
   #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link:hover {
-    color: #f4623a;
+    color: #112D32;
   }
 }
 
